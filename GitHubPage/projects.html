@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bonnie DeOtis - Projects</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Bonnie DeOtis</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Projects Section-->
+        <section class="py-5">
+            <div class="container px-5 mb-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-11">
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Student Admissions Site</h2>
+                                        <h6>Full-stack ASP.NET</h6>
+                                        <p>Created a ASP.NET MVC project for a student admissions website using C#,
+                                            Razor, and Entity Framework to perform a variety of CRUD services on a local
+                                            database running in Docker</p>
+                                        <p><b>Challenges:</b><br>
+                                        <ul>
+                                            <li>Working with Razor Pages</li>
+                                            <ul>
+                                                <li><i>This was my first full stack project working with Razor.</i>
+                                                </li>
+                                            </ul>
+                                            <li>Creating a student profile page that gave access to their enrolled
+                                                classes, strengths, weaknesses, and the ability to edit/update basic
+                                                info.</li>
+                                            <ul>
+                                                <li>
+                                                    <i>To solve this and create a clean and user-friendly experience I
+                                                        added in tabbed content so that the user could toggle between
+                                                        tables of the
+                                                        classes, strengths, or weaknesses based on what they wanted to
+                                                        see or access.</i>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        </p>
+                                        <div>
+                                            <h1><a class="text-gradient"
+                                                    href="https://github.com/bonniedeotis/PublicProjects/tree/main/StudentAdmissions"><i
+                                                        class="bi bi-github"></i></a></h1>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/Csharp_Logo.png" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 2-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Library Management Site</h2>
+                                        <h6>N-tier Architecture - Console Interface</h6>
+                                        <p>Library management system that creates a borrower and lets them
+                                            checkout/return various types
+                                            of media, while tracking things like number of items checked out, due dates,
+                                            and items that are past due. Provides CRUD functionality and updates a local
+                                            database
+                                            running in Docker. Also, used NUnit for creating unit testing of the service
+                                            layer.</p>
+                                        <p><b>Challenges:</b>
+                                        <ul>
+                                            <li>Creating two different repository layers - one with Entity Framework,
+                                                the other with Dapper/ADO</li>
+                                            <ul>
+                                                <li>
+                                                    <i>First I created the EF repo because that was slightly easier to
+                                                        code due to being able to use LINQ vs SQL.
+                                                        Then I began work on the Dapper/ADO repo by first working with
+                                                        the SQL queries in Azure Data Studio to make
+                                                        sure they were grabbing the data intented and then turning that
+                                                        query into the appropriate Dapper/ADO CRUD function.</i>
+                                                </li>
+                                            </ul>
+                                        </ul>
+                                        </p>
+                                        <div>
+                                            <h1><a class="text-gradient"
+                                                    href="https://github.com/bonniedeotis/PublicProjects/tree/main/LibraryManagement"><i
+                                                        class="bi bi-github"></i></a></h1>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/Csharp_Logo.png" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 3-->
+                        <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Cafe Point of Sale System</h2>
+                                        <h6>N-tier Architecture - Console Interface</h6>
+                                        <p>Designed a 3-tier C# application with a console interface that performed cafe
+                                            orders, workflow tasks, showed time-based menu options, and had basic sales
+                                            reporting.</p>
+                                        <p><b>Challenges:</b>
+                                        <ul>
+                                            <li>Creating a training mode that would not affect the database</li>
+                                            <ul>
+                                                <li><i>Created a training mode implementation that swapped in Lists in
+                                                        place of DB tables and allowed a new user to learn the system
+                                                        without affecting the database. Used LINQ to work with the Lists
+                                                        and perform CRUD functions.</i></li>
+                                            </ul>
+                                        </ul>
+                                        </p>
+                                        <div>
+                                            <h1><a class="text-gradient"
+                                                    href="https://github.com/bonniedeotis/PublicProjects/tree/main/CafePOS"><i
+                                                        class="bi bi-github"></i></a></h1>
+                                        </div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/Csharp_Logo.png" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action section-->
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                    <!-- <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Bonnie DeOtis 2024</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
